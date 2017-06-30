@@ -1,0 +1,107 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-align: center;
+}
+
+/*去除图片下放的空白*/
+.img-list .pic{
+	width: 800px;
+	height: 454px;
+	vertical-align: bottom;
+}
+#banner{
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 454px;
+}
+#img-list{
+	z-index: 0;
+	position: absolute;	    
+}
+#img-list li{
+	position: absolute;
+}
+#img-list .active{	
+	z-index: 1;	
+}
+#btn-list{
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	bottom: 15px;
+	margin-left: -150px;
+	background: rgba(255,255,255, .3);
+	padding: 0 5px;
+	border-radius: 13px;
+	cursor: pointer;
+}
+#btn-list span{
+	
+	display: block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 5px;
+	background: #fff;
+	border-radius: 50%;	
+
+}
+#btn-list .active{
+	background: deeppink;
+}
+#direction-btn{
+	display: none;
+}
+#direction-btn a{
+	z-index: 2;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	width: 40px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	color: #fff;
+	font-size: 36px;
+	background: rgba(0, 0, 0, .3);
+}
+#right-btn{
+	right: 0;
+	border-radius: 10px 0 0 10px;
+} 
+#left-btn{
+	border-radius: 0 10px 10px 0;
+}
+.Bgcolor0{
+	background: rgb(242, 173, 62);
+}
+.Bgcolor1{
+	background: rgb(83, 182, 153);
+}
+.Bgcolor2{
+	background: rgb(129, 33, 122);
+}
+.Bgcolor3{
+	background: rgb(255, 137, 1);
+}
+.Bgcolor4{
+	background: rgb(20, 130, 205);
+}
+.Bgcolor5{
+	background: rgb(1, 171, 81);
+} 
+.Bgcolor6{
+	background: rgb(255, 140, 163);
+}
+.Bgcolor6{
+	background: rgb(196, 88, 135);
+}

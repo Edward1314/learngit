@@ -1,0 +1,61 @@
+$(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > '3000px') {
+			console.log(3232)
+			$('.aside-list').fadeIn();
+		} else{
+			$('.aside-list').fadeOut();
+		}
+		
+		
+		
+		
+		
+		
+	})
+		
+		
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+})
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

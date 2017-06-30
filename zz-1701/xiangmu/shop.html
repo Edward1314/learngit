@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/comment.css" type="text/css"/>
+		<link rel="stylesheet" href="css/shop.css" type="text/css"/>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/shop.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			
+          <div class="top">
+			<div class="top-mid">
+				<img src="img/qc.jpg" id="bg1">	
+				<img src="img/qc1.jpg" style="position: absolute;left: 0;top: 0;display: none;"id="bg2">	
+				<div id="shouqi"></div>
+				<div id="zhankai"></div>
+				<div id="close"></div>
+			</div>
+		</div>
+		
+		<div class="nav">
+			<div class="nav-mid">
+				<ul>
+					<li>
+						<div class="zhuce">
+							
+							<a href="javascript:;">Hi，请登录</a>
+							<a href="javascript:;">免费注册</a>
+							
+						</div>
+					</li>
+					<li class="fenge"> | </li>
+					<li>
+						<div class="mudidi">
+							<span>送货至：</span>
+							<a href="javascript:;">上海</a>
+							<i class="i-d"></i>
+							<div class="mdlist">
+								<ul></ul>
+								<ul></ul>
+						    </div>
+						</div>
+						
+					</li>
+					
+				</ul>
+				
+				<ul style="width: 616px;height: 35px;float: right;" class="r-ul">
+					<li style="padding:0 19px 0 8px;position: relative;">
+						<a href="javascript:;">我的飞牛</a>
+						<i class="i-d"></i>
+						<div class="list">
+							<div class="img" style="width: 76px;height: 76px;">
+								<img src="img/head-pic.png">
+							</div>
+							
+							<a href="javascript:;" class="hello">你好！请登录</a>
+							<div class="feiniu">
+								<a href="javascript:;">账户余额</a>
+								<a href="javascript:;">待处理订单</a>
+								<a href="javascript:;">我的购物卡</a>
+								<a href="javascript:;">我的收藏</a>
+								<a href="javascript:;">我的优惠券</a>
+								<a href="javascript:;">我的评价</a>
+								<a href="javascript:;">我的积分</a>
+							</div>
+							<div style="width: 284px;height:0;position: absolute;bottom: 160px;left: 0;border-bottom: 1px dashed #CCC;">
+							</div>
+							<p>
+								<a href="javascript:;" class="footer">我的足迹</a>
+								<a href="javascript:;" class="more">更多></a>
+							</p>
+							
+						</div>
+					</li>					
+					<li class="spc"></li>
+					<li style="padding: 0 8px;"><a href="javascript:;">我的订单</a></li>
+					<li class="spc"></li>
+					<li style="position: relative;padding: 0 8px 0 24px;">
+						<i class="quan"></i>
+						<a href="javascript:;" style="color: red;">卡券充值</a>
+					</li>
+					<li class="spc"></li>
+					<li style="position: relative;padding: 0 19px 0 24px;">
+						<i class="mob"></i>
+						<a href="javascript:;">手机飞牛网</a>
+						<i class="i-d"></i>
+						<div class="list4">
+							<img src="img/4.jpg"/>
+							<p class="saosao">扫一扫，下载飞牛客户端</p>
+							<p class="denglu">首席登录App送5元优惠券</p>
+							<a href="javascript:;"class="iphone"></a>
+							<a href="javascript:;"class="android"></a>
+							<a href="javascript:;" style="font-size: 14px;margin-left: 22px;">iphone</a>
+							<a href="javascript:;" style="font-size: 14px;margin-left: 22px;">android</a>
+							
+							
+						</div>
+					</li>
+					<li class="spc"></li>
+					<li style="padding: 0 8px;">
+						<a href="javascript:;">积分商城</a>
+					</li>
+					<li class="spc"></li>
+					<li style="padding: 0 19px 0 8px;">
+						<a href="javascript:;">客户服务</a>
+						<i class="i-d"></i>
+						<div class="list11">
+							<p><a href="javascript:;">帮助中心</a></p>
+							<p><a href="javascript:;">在线客服</a></p>
+						</div>
+					</li>
+					<li class="spc"></li>
+					<li style="padding: 0 8px;">
+						<a href="javascript:;">关注我们</a>
+						<a href="javascript:;" class="wb" ></a>
+						<a href="javascript:;" class="wx"></a>
+						<div class="list13">
+							<p class="p1">扫描二维码</p>
+							<p class="p2">关注飞牛网官方微信</p>
+							<img src="img/5.png">
+						</div>
+						
+					</li>
+					
+				</ul>
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		<div class="logo">
+			<div class="logo-mid">
+				<img src="img/6.png">
+			    <img src="img/7.gif">
+				<div class="sousuo">
+					<div class="magn"></div>
+					<input type="text" id="txt"/>
+					<input type="button" value="搜索" id="btn"/>
+				</div>
+				
+				<div class="_list">
+					<a href="javascript:;">肉类零食</a>
+					<a href="javascript:;">抽纸</a>
+					<a href="javascript:;">99剑30</a>
+					<a href="javascript:;">价比JD低</a>
+					<a href="javascript:;">爽肤水</a>
+					<a href="javascript:;">三段</a>
+					<a href="javascript:;">进口食品</a>
+					<a href="javascript:;">生鲜馆</a>
+				</div>
+				
+				<div class="shopcar">
+					<p class="myshopcar">我的购物车</p>
+					<p class="mycar">
+						<span class="jishu">(0)</span>
+						<i class="car"></i>
+					</p>
+					<div class="xiangqing">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="caidan">
+			<div class="caidan-mid">
+				<div class="quanbu">
+					<i class="icon"></i>
+					<a href="javascript:;">全部商品分类</a>
+					<div class="left-list">
+			<ul>
+				<li>
+					<i class="i-f">&#xe624;</i>
+					<p>
+						<a href="javascript:;">生鲜食品，冷藏冷冻</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe760;</i>
+					<p>
+						<a href="javascript:;">食品，饮料，酒水</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe60c;</i>
+					<p>
+						<a href="javascript:;">进口好货，进口食品</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe6ef;</i>
+					<p>
+						<a href="javascript:;">美妆洗护，个人护理</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe635;</i>
+					<p>
+						<a href="javascript:;">家清纸品，厨具餐具</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe656;</i>
+					<p>
+						<a href="javascript:;">家纺，家居，家装</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe64d;</i>
+					<p>
+						<a href="javascript:;">母婴，童装，玩具</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe647;</i>
+					<p>
+						<a href="javascript:;">手机数码，电脑办公</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe689;</i>
+					<p>
+						<a href="javascript:;">大小家电，汽车用品</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe608;</i>
+					<p>
+						<a href="javascript:;">女装，内衣，腕表配饰</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe629;</i>
+					<p>
+						<a href="javascript:;">男装，运动，户外</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe832;</i>
+					<p>
+						<a href="javascript:;">鞋靴，箱包，奢饰品</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe66f;</i>
+					<p>
+						<a href="javascript:;">文具，电教，音像</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe607;</i>
+					<p>
+						<a href="javascript:;">保健，计生，器械</a>
+					</p>
+				</li>
+				<li>
+					<i class="i-f">&#xe60b;</i>
+					<p>
+						<a href="javascript:;">购物卡，票券</a>
+					</p>
+				</li>
+			</ul>
+		</div>
+					
+					
+				</div>
+				<div id="remai">
+					<ul>
+						<li><a href="javascript:;">飞牛商城</a></li>
+						<li><a href="javascript:;">进口好货</a></li>
+						<li><a href="javascript:;">母婴馆</a></li>
+						<li><a href="javascript:;">服装城</a></li>
+						<li><a href="javascript:;">家居馆</a></li>
+						<li><a href="javascript:;">美食城</a></li>
+						<li><a href="javascript:;">美护馆</a></li>
+						<li><a href="javascript:;">电器城</a></li>
+						<li><a href="javascript:;">肥牛团</a></li>
+						<li>
+							<a href="javascript:;">自创品牌
+						        <i class="z-hot"></i>  
+						    </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--戴尔logo-->
+		<div class="region-header">
+			<div class="header-wrap">
+				<a href="javascript:;"><img src="img/daier.jpg"></a>
+			</div>
+		</div>
+		
+		<div class="dp-crumps">
+			<a href="javascript:;" class="p-fb">手机数码，电脑办公 ></a>
+			<a href="javascript:;">电脑壁纸 ></a>
+			<a href="javascript:;">台式机 ></a>
+			<a href="javascript:;">戴尔（DELL）台式机 ></a>
+			<a href="javascript:;" id="brandurl">
+				<h2>海玻电脑专营店 ></h2>
+			</a>
+			<font class="dp-name" color="red">戴尔/DELL 外星人 ALWA51D-4738 4828 4838 4878高端游戏台式机预定</font>
+		</div>
+		
+		<!--放大镜-->
+		<div class="dp-info">
+			
+			<div id="box">			
+				<div id="big-box">
+					<img src="img/compbig1.jpg" id="big-img"> 
+				</div>			
+				<div id="middle-box">
+					<img src="img/comp1.jpg" id="middle-img">
+					<div id="shadow"></div>
+				</div>			
+				<div id="thumb-box">
+					<div id="thumb-box-br">
+						<img src="img/comp1.jpg" class="pt-active">
+				        <img src="img/comp2.jpg">
+					    <img src="img/comp3.jpg">
+						<img src="img/comp4.jpg">
+						<img src="img/comp5.jpg">
+					</div>
+				</div>
+				
+				<div class="dp-pro-sc">
+		    	    
+		    	    <a class="scdp" id="favorite">收藏商品</a>
+		    	</div>
+		    
+	
+		    </div>
+ 
+		    <div class="bgwarp">
+				<div class="dp-proInfo">
+					<div class="infor-guidance">
+						<h1 id="main_info">戴尔/DELL 外星人 ALWA51D-4738 4828 4838 4878高端游戏台式机预定 ALWA51-4878 </h1>
+						<font class="sellPoint">创新的标志性设计，智能英特尔® 酷睿™ i7处理器，Broadwell-E 系列，优质的配置选项，可实现强大的游戏性能。</font>
+					</div>
+					
+					<div class="j_limit">
+						<div class="pro-point">
+							送积分
+							<span>3699</span>
+						</div>
+						<ul class="yellow-ul">
+							<li class="li-yh">
+								<div class="pro-title">飞牛价</div>
+								<div class="pro-value">
+									<div id="p-o-u"">
+										<font class="infor-price" rel="a">
+											<em>￥</em>
+											<b class="js-price">30.999</b>
+										</font>
+										<font class="infor-price" rel="b" style="display: none;">
+											<em>￥</em>
+											<b class="js-price">3.1999</b>
+										</font>
+										<font class="infor-price" rel="c" style="display: none;">
+											<em>￥</em>
+											<b class="js-price">329.99</b>
+										</font>
+										<font class="infor-price" rel="d" style="display: none;">
+											<em>￥</em>
+											<b class="js-price">33.999</b>
+										</font>
+									</div>	
+									<span class="info-tzjj">
+										<a saleprice='32999'>(降价通知)</a>
+									</span>
+								</div>
+								
+							</li>
+						</ul>
+				</div>
+				
+				
+				<ul class="detail-ul">
+					<li class="prod_color">
+						<div class="pro-title">颜   色</div>
+						<div class="pro-value" id="p-v-e">
+							<a href="javascript:;" class="pro-color active-s" rel="a" id="p-c-r">
+								<img src="img/pc1.jpg">
+								
+							</a>
+							<a href="javascript:;" class="pro-color" rel="b" id="p-c-r">
+								<img src="img/pc2.jpg">
+								
+							</a>
+							<a href="javascript:;" class="pro-color" rel="c" id="p-c-r">
+								<img src="img/pc3.jpg">
+								
+							</a>
+							<a href="javascript:;" class="pro-color" rel="d" id="p-c-r">
+								<img src="img/pc4.jpg">
+								
+							</a>
+						</div>
+					</li>
+					
+					
+					<li id="prod_size" style="display: block;line-height: 24px;margin-bottom: 5px;"></li>
+					
+					<li id="j_color_size">
+						<div class="pro-title">已选择</div>
+						<div class="pro-value" id="p-r-l">
+							<font rel="a">ALWA51-1111</font>
+							<font rel="b" style="display: none;">ALWA51-2222</font>
+							<font rel="c" style="display: none;">ALWA51-3333</font>
+							<font rel="d" style="display: none;">ALWA51-4444</font>
+						</div>
+					</li>
+					
+					<li id="j_counts">
+						<div class="pro-title">数  量</div>
+						<div class="pro-value">
+							<div class="wrap-input" id="Wrap-input">
+								<a class="btn-reduce" id="Btn-reduce">-</a>
+								<a class="btn-add" id="Btn-add">+</a>
+								<input id="buy-num" type="text" value="1"/>
+							</div>
+						</div>
+					</li>
+					
+					<li class="rdbtn" >
+						<div class="pro-title">&nbsp;</div>
+						<div class="pro-value">
+							<a href="javascript:;" id="buyProduct" class="add-car"></a>
+							
+							
+						</div>
+					</li>
+				</ul>
+				
+				
+				<ul class="detail-ul-address">
+					<li class="deliverGoods">
+						<div class="pro-title">送 货至</div>
+						<div class="pro-value">
+							<div id="dp-address">
+		                          <div class="text"></div>
+							</div>
+							<b class="notice-pro">有货</b>
+							<span id="FeeInfor">
+								<font>免运费</font>
+							</span>
+						</div>
+					</li>
+					<li class="Buiness">
+						<div class="pro-title">&nbsp;</div>
+						<div class="pro-value">
+							由
+							<font>海玻电脑专营店</font>
+							<span id="arrival">发货并提供售后服务。</span>
+						</div>
+					</li>
+					<li class="sevice">
+						<div class="pro-title">服务承诺</div>
+						<div class="pro-value">
+							<a id="server0">
+								<i class="server-icon"></i>
+								<span id="is_return">支持7天无理由退货</span>
+							<a id="server1">
+								<i class="server-icon"></i>
+								<span id="is_return">正品保证</span>
+							</a>
+							</a>
+						</div>
+					</li>
+				</ul>
+			
+			</div>
+			
+			</div>
+	
+		</div>
+		
+		
+		<!--主体部分-->
+		<div id="main-contain">
+			<div class="col-main">			
+				<div class="main-wrap">
+					
+					
+					<div class="dp-infotab" id="dp-infotab">
+						<ul id="pro-all-list">
+							<li id="pro-intr" rel="a">
+								<a href="javascript:;">商品介绍</a>
+							</li>
+							<li id="pro-propery" rel="b">
+								<a href="javascript:;">规格及包装</a>
+							</li>
+							<li id="pro-comment" rel="c">
+								<a href="javascript:;">评价（<font id="favoritenum">1</font>）</a>
+							</li>
+							<li id="pro-sales" rel="d">
+								<a href="javascript:;">售后服务</a>
+							</li>
+							
+						</ul>
+						
+				<div class="a-r-p">	
+					<div class="proIntro thesame active-5" id="proIntro" rel="a" >
+						    <dl class="dl-proInfo" border="0" style="font: 12px Arial,Simsun;">
+						    	<dt>规格参数</dt>
+						    	<dd>
+						    		<span style="float: left;">品牌:</span>
+						    		<a href="javascript:;">戴尔（DELL）</a>
+						    	</dd>
+						    	<dd title="预装系统：Windows"10>预装系统：Windows 10</dd>
+						    	<dd title="显示器尺寸：无显示器">显示器尺寸：无显示器</dd>
+						    	<dd title="电脑类别：家用电脑">电脑类别：家用电脑</dd>
+						    	<dd title="显卡：独立显卡">显卡：独立显卡</dd>
+						    	<dd title="内存容量：16G">内存容量：16G</dd>
+						    	<dd title="硬盘容量：4TB">硬盘容量：4TB</dd>
+						    	<dd title="平台：Intel平台">平台：Intel平台</dd>
+						    	<dd title="蓝牙功能：支持蓝牙">蓝牙功能：支持蓝牙</dd>
+						    	<p class="sim_norms_p">
+						    		<a class="sim_norms" href="javascript:;">更多参数>></a>
+						    	</p>
+						    </dl>
+					    </div>
+					    
+					    <div class="prospec thesame" id="prospec" rel="b">
+					    	<table class="prospec-table">
+					    		<thead>
+					    			<tr>
+					    				<th colspan="2" style="border-top: 1px solid #F1F1F1;border-bottom:1px solid #F1F1F1 ;font-weight: bold;">规格</th>
+					    			</tr>
+					    		</thead>
+					    		<tbody>
+					    			<tr>
+					    				<td class="t1">品牌:</td>
+					    				<td>戴尔(DELL)</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">预装系统:</td>
+					    				<td>Windows 10</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">显示器尺寸:</td>
+					    				<td>无显示器</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">电脑类别:</td>
+					    				<td>家用电脑</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">台式机类型:</td>
+					    				<td>单主机</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">品牌:</td>
+					    				<td>独立显卡</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">内存容量:</td>
+					    				<td>16G</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">硬盘容量:</td>
+					    				<td>4TB</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">平台:</td>
+					    				<td>Intel平台</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">蓝牙功能:</td>
+					    				<td>支持蓝牙</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">型号:</td>
+					    				<td>ALWA51D-4838</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">显存容量:</td>
+					    				<td>6G及以上</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">屏幕分辨率:</td>
+					    				<td>无</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">CPU核心数:</td>
+					    				<td>六核</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">CPU系列:</td>
+					    				<td>酷睿i7</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">内置无线网卡:</td>
+					    				<td>有无线网卡</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">硬盘类型:</td>
+					    				<td>机械硬盘+SSD固态硬盘</td>
+					    			</tr>
+					    			<tr>
+					    				<td class="t1">光驱类型:</td>
+					    				<td>蓝光COMBO</td>
+					    			</tr>
+					    		</tbody>
+					    	</table>
+					    </div>
+					    
+					    <div class="pingjia thesame" id="pingjia" rel="c"></div>
+					    <div class="afterserv thesame" id="afterserv" rel="d"></div>
+				</div>	
+					</div>
+					
+					
+					
+					
+				    
+					
+			    </div>
+			    
+			    <div id="from-rich">
+			    	<img src="img/shop1.jpg">
+			    	<img src="img/shop2.jpg">
+			    	<img src="img/shop3.jpg">
+			    	<img src="img/shop4.jpg">
+			    	<img src="img/shop5.jpg">
+			    	<div style="margin: 12px 0;">
+			    		<p ><img src="img/shop6.jpg"></p>
+			    	</div>
+			    </div>
+			    
+			    <div class="detailInap">
+			    	<div class="detail-content" style="margin-top: 40px;position: relative;min-height: 40px;">
+			    		<div class="detail-hd" id="detail-hd">
+			    			<h5>商品简介</h5>
+			    			<i id="romantic"></i>			    			
+			    		</div>
+			    		<div class="detail-info" id="detail-info">			    			
+								戴尔/DELL 外星人 ALWA51D-4738 4828 4838 4878高端游戏台式机预定是台式机中的产品之一，
+								其品质受到较多顾客的好评，同时戴尔/DELL 外           星人 ALWA51D-4738 4828 4838 4878高端
+								游戏台式机预定也是戴尔(DELL)台式机中的销售较好的产品之一，戴尔/DELL 外星人 ALWA51D-4738 
+								4828 4838 4878高端游戏台式机预定所属的品牌也因其良好的信誉而受到用户的喜爱，公平公正的价格也
+								使戴尔/DELL 外星人 ALWA51D-4738 4828 4838 4878高端游戏台式机预定拥有良好的口碑。每一
+								个呈现在顾客面前平凡的戴尔/DELL 外星人 ALWA51D-4738 4828 4838 4878高端游戏台式机预定
+								都拥有一个不平凡的故事。细节决定成败，飞牛网提供戴尔/DELL 外星人 ALWA51D-4738 4828 4838 
+								4878高端游戏台式机预定的价格、报价、图片等信息，使顾客对戴尔/DELL 外星人 ALWA51D-4738 4828 
+								4838 4878高端游戏台式机预定有更多更具体的了解。			
+			    		</div>
+			    		
+			    	</div>
+			    </div>
+			    
+			</div>		
+		</div>
+		<!--底部-->
+		<div class="m-footer">
+			<div class="footer-map">
+				<ul class="fn-clear">
+					<li class="map">
+						<i class="footer-icon z-icon"></i>
+						<strong class="tit">正品低价</strong>
+						<br>
+						<span class="desc">正品行货  品质保障</span>	
+					</li>
+					<li class="line"></li>
+					<li class="map">
+						<i class="footer-icon q-icon"></i>
+						<strong class="tit">品类齐全</strong>
+						<br>
+						<span class="desc">品类齐全  选则丰富</span>
+					</li>
+					<li class="line"></li>
+					<li class="map">
+						<i class="footer-icon k-icon"></i>
+						<strong class="tit">快速配送</strong>
+						<br>
+						<span class="desc">多仓执法  急速配送</span>
+					</li>
+					<li class="line"></li>
+					<li class="map">
+						<i class="footer-icon t-icon"></i>
+						<strong class="tit">售后无忧</strong>
+						<br>
+						<span class="desc">7天无理由退货</span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="server-list">
+				<ul class="fn-clear">
+			   	    <li>
+			   	    	<i class="list-icon icon1"></i>
+			   	    	<dl class="list-item">
+			   	    		<dt>购物指南</dt>
+			   	    		<dd><a href="javascript:;" rel="nofollow">新用户注册</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">购物流程</a></dd>
+			   	    		
+			   	    	</dl>
+			   	    </li>
+			   	    <li>
+			   	    	<i class="list-icon icon2"></i>
+			   	    	<dl class="list-item">
+			   	    		<dt>支付方式</dt>
+			   	    		<dd><a href="javascript:;" rel="nofollow">货到付款</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">银联卡支付</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">支付宝</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">财付通</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">优惠卡券</a></dd>
+			   	    </li>
+			   	    <li>
+			   	    	<i class="list-icon icon3"></i>
+			   	    	<dl class="list-item">
+			   	    		<dt>配送服务</dt>
+			   	    		<dd><a href="javascript:;" rel="nofollow">配送服务</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">配送查询</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">便利店自提</a></dd>
+			   	    </li>
+			   	    <li>
+			   	    	<i class="list-icon icon4"></i>
+			   	    	<dl class="list-item">
+			   	    		<dt>售后服务</dt>
+			   	    		<dd><a href="javascript:;" rel="nofollow">退货说明</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">退款说明</a></dd>
+			   	    </li>
+			   	    <li>
+			   	    	<i class="list-icon icon5"></i>
+			   	    	<dl class="list-item">
+			   	    		<dt>常见问题</dt>
+			   	    		<dd><a href="javascript:;" rel="nofollow">账户问题</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">发票问题</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">订单问题</a></dd>
+			   	    		<dd><a href="javascript:;" rel="nofollow">在线客服</a></dd>
+			   	    </li>
+			   	    <li class="app-item">
+			   	    	<p>飞牛网客户端</p>
+			   	    	<img width="90" height="90" src="img/fei1.jpg" style="cursor: pointer;">
+			   	    </li>
+			   	    <li class="wechat-item">
+			   	    	<p>飞牛微信网</p>
+			   	    	<img width="90" height="90" src="img/fei2.png" style="cursor: pointer;">
+			   	    </li>
+			   </ul>
+			</div>
+			   
+			
+			<div class="site-info">
+				<div class="foot-nav">
+					<a rel="nofollow" href="javascript:;">公司介绍</a>
+					|
+					<a rel="nofollow" href="javascript:;">联系我们</a>
+					|
+					<a rel="nofollow" href="javascript:;">肥牛招聘</a>
+					|
+					<a rel="nofollow" href="javascript:;">媒体报道</a>
+					|
+					<a rel="nofollow" href="javascript:;">热搜索词</a>
+					|
+					<a rel="nofollow" href="javascript:;">评价中心</a>
+					|
+					<a rel="nofollow" href="javascript:;">友情链接</a>
+					|
+					<a rel="nofollow" href="javascript:;">商家入驻</a>
+					|
+					<a rel="nofollow" href="javascript:;">招商标准</a>
+					|
+					<a rel="nofollow" href="javascript:;">开放平台</a>
+					|
+					<a rel="nofollow" href="javascript:;">企业团购021-36695538</a>
+					|
+					<a rel="nofollow" href="javascript:;">客服热线400-920-6565</a>
+					
+				</div>
+				<div class="link">
+					<p>沪ICP备14034590号　|　食品经营许可证 JY13101060025900　|　酒类商品零售许可证 沪静酒专字 第0818030108000002号</p>
+					<p>出版物经营许可证编号新出发（沪）零字第Z6216号　|　快递业务经营许可证编号：沪邮20131324B　|　营业执照</p>
+					<p>Copyright © 2013-2016 飞牛网, All Rights Reserved.</p>
+				</div>
+				
+				<div class="inline-box logowall">
+					<a rel="nofollow" href="javascript:;" class="item shgs"></a>
+					<a rel="nofollow" href="javascript:;" class="item shw1"></a>
+					<a rel="nofollow" href="javascript:;" class="item cxwz"></a>
+					<a rel="nofollow" href="javascript:;" class="item kxwz"></a>
+					<a rel="nofollow" href="javascript:;" class="item hyyz"></a>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		
+		
+	</body>
+</html>

@@ -1,0 +1,47 @@
+$(function(){
+	 $('#shouqi').on('click',function(){
+	 	$('.top').animate({height: 60,},1000);
+	 	$('.top-mid').animate({height: 60,},1000,function(){
+	 		$('#bg2').css('display','block');
+	 		$('#bg1').css('display','none');
+	 		$('#shouqi').css('display','none');
+	 		$('#zhankai').css('display','block');
+	 		
+	 	})
+	
+	 })
+	 
+	 $('#zhankai').on('click',function(){
+	 	$('#bg1').css('display','block');
+	 	$('#bg2').css('display','none');
+	 	$('.top').animate({height: 300,},1000);
+	 	$('.top-mid').animate({height: 300,},1000)
+	    $('#shouqi').css('display','block');
+	    $('#zhankai').css('display','none');
+	 })
+	 
+	$('#close').on('click',function(){
+		$('.top').css('display','none');
+		
+		
+	})
+	
+	
+	//侧边栏
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+})

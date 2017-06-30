@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/comment.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="header area">
+			<a href="javascript:;" class="logo" title="回到飞牛首页"></a>
+		</div>
+		
+		<div class="m-login" style="background-color: #E9E9E9;" id="divMlogin">
+			<div class="login-wrap">
+				<div class="banner">
+					<a href="javascript:;" id="aBanner">
+						<img src="img/aBanner.jpg" id="aBannerImg"/>
+					</a>
+				</div>
+			<!--登录框-->
+				<div class="denglu">
+					<div class="load denglu1" style="display: none;">
+						<h2 class="biaoti-denglu">登录飞牛网</h2>						
+						<div class="saoma-denglu">
+							扫码登录更安全
+						</div>
+						<div class="tishi">公共场所不建议自动登录，以防帐号丢失</div>						
+						<div class="zhanghao">							
+							<input type="text" class="zhanghao-after shurukuang" placeholder="邮箱/用户名/手机号"/>
+						</div>
+						
+						<div class="mima">							
+							<input type="text" class="mima-after shurukuang" placeholder="密码"/>
+						</div>
+						<div class="u-safe">
+							<span class="auto">
+							<label>	<input type="checkbox" class="fuxuankuang"/>
+								自动登录</label>
+						    </span>
+						    <span class="forget">
+							<a href="javascript:;">忘记密码？</a>
+							</span>
+						</div>
+						<div class="denglu-btn"><a href="javascript:;">登&nbsp;&nbsp;&nbsp;录</a></div>
+						
+						<div class="mobile">
+							<a href="javascript:;" class="mobile-login">
+								<span style="display: inline-block;width: 12px;height: 18px;position: absolute;left: 20px;top:10px;background: url('img/denglu.png') -44px -40px no-repeat;"></span>
+								手机验证码登录
+							</a>
+							<a href="javascript:;" class="text-right">
+								<span style="display: inline-block;width: 15px;height: 15px;position: absolute;right: 83px;background: url('img/denglu.png') -58px -40px no-repeat;"></span>
+								免费注册
+							</a>
+						</div>
+						<div class="hezuo-load">
+							<span>合作网站登录:</span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					
+					
+					
+					<div class="load denglu2" style="display: ;background: #ccc;">
+						<div class="zhngahao-denglu">
+						    <h2 class="biaoti-denglu">登录飞牛网</h2>												
+							<p>账号密码登录</p>
+						</div>
+						<div class="tishi">公共场所不建议自动登录，以防帐号丢失</div>						
+						<div class="shoujihao">							
+							<input type="text" class="shoujihao-after shurukuang" placeholder="手机号"/>
+						</div>
+						
+						<div id="v_container" style="width: 66px;height: 40px;"></div>
+						<input type="text" id="code_input" value="" placeholder="请输入验证码"/>
+						<button id="my_button">验&nbsp;&nbsp;&nbsp;证</button>
+						
+						<!--<div class="mima">							
+							<input type="text" class="mima-after shurukuang" placeholder="密码"/>
+						</div>-->
+						<!--<div class="u-safe">
+							<span class="auto">
+							<label>	<input type="checkbox" class="fuxuankuang"/>
+								自动登录</label>
+						    </span>
+						    <span class="forget">
+							<a href="javascript:;">忘记密码？</a>
+							</span>
+						</div>-->
+						<!--<div class="denglu-btn"><a href="javascript:;">登&nbsp;&nbsp;&nbsp;录</a></div>-->
+						
+						
+						
+					</div>
+					<div class="denglu3" style="display: none;"></div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+
+		</div>
+	</body>
+	<script src="js/gVerify.js"></script>
+	<script>
+		var verifyCode = new GVerify("v_container");
+
+		document.getElementById("my_button").onclick = function(){
+			var res = verifyCode.validate(document.getElementById("code_input").value);
+			if(res){
+				alert("验证正确");
+			}else{
+				alert("验证码错误");
+			}
+		}
+	</script>
+</html>

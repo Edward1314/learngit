@@ -1,0 +1,46 @@
+window.onload=function(){
+	
+	var iIndex = 0;	    
+	   oRightpinpai = document.getElementById('right-pinpai');
+	 oDirectionbtn1 = document.getElementById('direction-btn1');
+		 oRightbtn1 = document.getElementById('right-btn1'); 
+		  oLeftbtn1 = document.getElementById('left-btn1');
+	          oList = document.getElementById('list');
+	         oFirst =  oList.firstElementChild;    
+	    oList.innerHTML += oFirst.outerHTML;
+	   //鼠标移入是显示
+	   
+	oRightpinpai.onmouseenter=function(){
+		console.log(111)
+		oDirectionbtn1.style.display = 'block';
+	}
+	oRightpinpai.onmouseleave=function(){
+		oDirectionbtn1.style.display = 'none';
+	}
+	
+	//添加右侧点击事件
+	
+	oRightbtn1.onclick=function(){
+		if (iIndex === 4) {
+			iIndex = 0;
+			oList.style.left = 0;
+		}
+		
+		iIndex++;
+	    bufferMove(oList,{left:-iIndex*1000});
+	}
+	
+	//添加左侧点击事件
+	oLeftbtn1.onclick=function(){
+		iIndex--;
+		if (iIndex < 0) {
+			iIndex = 3;
+			oList.style.left = '-4000px';
+		}
+		
+		
+	    bufferMove(oList,{left:-iIndex*1000});
+	}
+	
+	
+}

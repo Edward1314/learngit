@@ -1,0 +1,63 @@
+#lunboA{
+	position: relative;
+	width: 400px;
+	height: 240px;
+	overflow: hidden;
+}
+#img-list-A{
+	position: absolute;
+	width: 1995px;
+	height: 240px;
+}
+#img-list-A li{
+	display: block;
+	width: 399px;
+	height: 240px;
+	float: left;
+}
+#btn-list-A{
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -60px;
+	z-index: 1;
+	width: 120px;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#btn-list-A span{
+	border-radius: 50%;
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: rgba(0,0,0,.4);
+}
+#btn-list-A .apple{
+	background: pink;
+}
+#direction-btn-A{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -20px;
+	width: 100%;
+	height: 40px;
+	
+}
+#direction-btn-A a{
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	background: rgba(0,0,0,.4);
+}
+#right-btn-A{
+	right: 0;
+}
